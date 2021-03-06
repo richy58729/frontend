@@ -474,7 +474,7 @@ class HassioSnapshotDialog extends LitElement {
       const confirm = await showConfirmationDialog(this, {
         title: "Potential slow download",
         text:
-          "Downloading snapshots over the Nabu Casa URL will take some time, it is recomended to use your local URL instead, do you want to continue?",
+          "Downloading snapshots over the Nabu Casa URL will take some time, it is recommended to use your local URL instead, do you want to continue?",
         confirmText: "continue",
         dismissText: "cancel",
       });
